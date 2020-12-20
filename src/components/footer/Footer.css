@@ -18,10 +18,14 @@
 .reference {
   position: relative;
   font-size: 13px;
-  height: 45px;
-  padding-top: 15px;
+  margin-top: 8px;
+  height: 23px;
+  padding-top: 7px;
   text-decoration: none;
   color: white;
+}
+.reference:hover {
+  color: #dadada;
 }
 .contact {
   position: relative;
@@ -30,13 +34,19 @@
   height: 30px;
   border: none;
   margin-top: 7.5px;
+  cursor: pointer;
   background-color: transparent;
+  outline: 0;
 }
 .round {
   width: 10px;
   height: 10px;
   position: absolute;
-  background-color: #4ace54;
+  /* background-color: #4ace54; */
   margin-top: 2px;
   border-radius: 50%;
+}
+.contact:active {
+  position: relative;
+  top: 1px;
 }

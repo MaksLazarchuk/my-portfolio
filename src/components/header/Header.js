@@ -11,7 +11,9 @@ function Header({ changeActivePages }) {
       <header id="App-header">
         <div className="container">
           <div className="photo">
-            <img src={photo} alt="photo" />
+            <a href="#" onClick={() => changeActivePages(0)}>
+              <img src={photo} alt="photo" />
+            </a>
           </div>
           <div className="links">
             <div className="profile link-box">
