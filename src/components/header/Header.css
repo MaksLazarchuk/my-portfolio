@@ -1,5 +1,49 @@
 #App-header {
-  height: 58px;
+  height: 60px;
   width: 100%;
   background-color: #f04949;
+}
+.container {
+  height: 60px;
+  position: relative;
+  width: 768px;
+  margin: 0 auto;
+}
+.photo {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  margin-top: 5px;
+  margin-left: 20px;
+  border-radius: 50%;
+  background-color: royalblue;
+  border: 3px solid white;
+}
+.photo img {
+  border-radius: 50%;
+  width: 44.25px;
+  height: 44.25px;
+}
+.links {
+  display: flex;
+  width: 510px;
+  height: 35px;
+  margin-top: 12.5px;
+  margin-left: 100px;
+  position: absolute;
+}
+.link-box {
+  text-align: center;
+  width: 118px;
+  border-radius: 30px;
+  padding-top: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+.link-box img {
+  padding-right: 9px;
 }
