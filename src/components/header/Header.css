@@ -47,3 +47,6 @@
 .link-box img {
   padding-right: 9px;
 }
+.active {
+  background-color: rgb(26, 20, 20);
+}

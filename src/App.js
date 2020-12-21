@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <Header changeActivePages={changeActivePages} />
+      <Header changeActivePages={changeActivePages} activePages={activePages} />
       {pages[activePages]}
       <Footer />
     </div>

@@ -3,4 +3,6 @@ body {
   padding: 0;
   background-color: #203748;
 }
-
+.series {
+  color: red;
+}

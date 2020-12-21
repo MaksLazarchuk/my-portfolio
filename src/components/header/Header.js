@@ -5,7 +5,7 @@ import circles from "../../media/circles.png";
 import bag from "../../media/bag.png";
 import docu from "../../media/docu.png";
 
-function Header({ changeActivePages }) {
+function Header({ changeActivePages, activePages }) {
   return (
     <div className="App">
       <header id="App-header">
@@ -16,7 +16,11 @@ function Header({ changeActivePages }) {
             </a>
           </div>
           <div className="links">
-            <div className="profile link-box">
+            <div
+              className={
+                "profile link-box" + (activePages === 0 ? " active" : "")
+              }
+            >
               <a href="#" onClick={() => changeActivePages(0)}>
                 <img src={user} alt="user" />
                 PROFILE
