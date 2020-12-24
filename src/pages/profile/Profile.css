@@ -1,0 +1,66 @@
+.container-pages {
+  position: relative;
+  width: 768px;
+  margin: 0 auto;
+}
+.frame {
+  background-color: white;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 30px;
+  border-radius: 50%;
+}
+.photogram {
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  border-radius: 50%;
+}
+.box-text {
+  position: absolute;
+  margin-left: 210px;
+  margin-top: 30px;
+  width: 400px;
+}
+.name {
+  color: #2bce6c;
+}
+.profesion {
+  color: white;
+  margin-top: -11px;
+  margin-left: 2px;
+}
+.description {
+  color: white;
+  margin-top: 40px;
+  margin-left: 2px;
+  line-height: 26px;
+}
+.button-hire {
+  position: relative;
+  color: white;
+  background-color: #39d084;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  margin-left: 300px;
+  margin-top: 290px;
+  cursor: pointer;
+  outline: 0;
+  padding-left: 55px;
+}
+.button-hire:hover {
+  background-color: #34ac70;
+}
+.button-hire:active {
+  position: relative;
+  top: 1px;
+}
+.check {
+  margin-left: -35px;
+  position: absolute;
+}

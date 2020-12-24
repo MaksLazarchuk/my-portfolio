@@ -2,8 +2,9 @@
   height: 60px;
   width: 100%;
   background-color: #f04949;
+  position: relative;
 }
-.container {
+.container-header {
   height: 60px;
   position: relative;
   width: 768px;

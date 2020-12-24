@@ -1,5 +1,5 @@
 import "./Header.css";
-import photo from "../../media/photo.png";
+import photogram from "../../media/photogram.png";
 import user from "../../media/user.png";
 import circles from "../../media/circles.png";
 import bag from "../../media/bag.png";
@@ -14,10 +14,10 @@ function Header({ changeActivePages, activePages }) {
   return (
     <div className="App">
       <header id="App-header">
-        <div className="container">
+        <div className="container-header">
           <div className="photo">
             <a href="#" onClick={() => changeActivePages(0)}>
-              <img src={photo} alt="photo" />
+              <img src={photogram} alt="photogram" />
             </a>
           </div>
           <div className="links">
