@@ -12,7 +12,7 @@ function App() {
   const [activePages, changeActivePages] = useState(0);
 
   return (
-    <div>
+    <div className="layout">
       <Header changeActivePages={changeActivePages} activePages={activePages} />
       {pages[activePages]}
       <Footer />

@@ -3,6 +3,13 @@ body {
   padding: 0;
   background-color: #203748;
 }
+.layout {
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  flex-direction: column;
+}
 .series {
   color: red;
 }
