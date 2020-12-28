@@ -6,6 +6,7 @@ import Profile from "./pages/profile/Profile";
 import Resume from "./pages/resume/Resume";
 import Skills from "./pages/skills/Skills";
 import Works from "./pages/works/Works";
+import PageLayout from "./components/pageLayout/PageLayout";
 
 const pages = [<Profile />, <Skills />, <Works />, <Resume />];
 function App() {
@@ -14,7 +15,7 @@ function App() {
   return (
     <div className="layout">
       <Header changeActivePages={changeActivePages} activePages={activePages} />
-      {pages[activePages]}
+      <PageLayout>{pages[activePages]}</PageLayout>
       <Footer />
     </div>
   );

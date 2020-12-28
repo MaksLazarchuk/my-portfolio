@@ -1,0 +1,80 @@
+.skill {
+  margin-left: 25px;
+}
+.circle-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 60px;
+  margin-left: 20px;
+  width: 60px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.circle-name-react {
+  background-color: #30a5dc;
+}
+.circle-name-vue {
+  background-color: #ee742b;
+}
+.circle-name-js {
+  background-color: #f04949;
+}
+.circle-name-html {
+  background-color: #39d084;
+}
+.circle-name-css {
+  background-color: #c81bc2;
+}
+.circle-name p {
+  color: white;
+  font-weight: 600;
+  margin-top: 21px;
+  text-align: center;
+}
+.line-name-skill {
+  margin-top: -75px;
+  width: 600px;
+  margin-left: 100px;
+  position: absolute;
+}
+.word {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.word p {
+  color: white;
+  height: 18px;
+  font-weight: 500;
+}
+.line {
+  height: 8px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: -12px;
+}
+.line-skill {
+  border-radius: 5px;
+  height: 8px;
+  position: absolute;
+}
+.line-skill-react {
+  background-color: #30a5dc;
+  width: 20%;
+}
+.line-skill-vue {
+  background-color: #ee742b;
+  width: 40%;
+}
+.line-skill-js {
+  background-color: #f04949;
+  width: 35%;
+}
+.line-skill-html {
+  background-color: #39d084;
+  width: 80%;
+}
+.line-skill-css {
+  background-color: #c81bc2;
+  width: 85%;
+}

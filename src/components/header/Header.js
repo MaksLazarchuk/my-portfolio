@@ -10,36 +10,40 @@ function Header({ changeActivePages, activePages }) {
     if (index === activePages) return "active";
     return;
   }
+  const changePage = (e, i) => {
+    e.preventDefault();
+    changeActivePages(i);
+  };
 
   return (
     <header id="App-header">
       <div className="container-header">
         <div className="photo">
-          <a href="#" onClick={() => changeActivePages(0)}>
+          <a href="#profile" onClick={(e) => changePage(e, 0)}>
             <img src={photogram} alt="photogram" />
           </a>
         </div>
         <div className="links">
           <div className={"profile link-box " + addClassIfActive(0)}>
-            <a href="#" onClick={() => changeActivePages(0)}>
+            <a href="?profile" onClick={(e) => changePage(e, 0)}>
               <img src={user} alt="user" />
               PROFILE
             </a>
           </div>
           <div className={"skills link-box " + addClassIfActive(1)}>
-            <a href="#" onClick={() => changeActivePages(1)}>
+            <a href="?skills" onClick={(e) => changePage(e, 1)}>
               <img src={circles} alt="circles" />
               SKILLS
             </a>
           </div>
           <div className={"works link-box " + addClassIfActive(2)}>
-            <a href="#" onClick={() => changeActivePages(2)}>
+            <a href="?works" onClick={(e) => changePage(e, 2)}>
               <img src={bag} alt="bag" />
               WORKS
             </a>
           </div>
           <div className={"resume link-box " + addClassIfActive(3)}>
-            <a href="#" onClick={() => changeActivePages(3)}>
+            <a href="?resume" onClick={(e) => changePage(e, 3)}>
               <img src={docu} alt="docu" />
               RESUME
             </a>

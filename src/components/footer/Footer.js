@@ -5,8 +5,8 @@ function App() {
     <footer id="App-footer">
       <div className="container-footer">
         <div className="footer">
-          <a href="#" className="reference">
-            www.juandelacruz.com
+          <a href="https://github.com/MaksLazarchuk" className="reference">
+            github.com/MaksLazarchuk
           </a>
           <button className="contact">
             <div className="round" />
