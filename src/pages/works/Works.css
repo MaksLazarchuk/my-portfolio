@@ -1,0 +1,17 @@
+.work {
+  padding: 0 4px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-galerry {
+  margin: 7.5px;
+}
+.galerry {
+  width: 175px;
+  height: 175px;
+  background-color: #e4e4e4;
+  border-radius: 2px;
+}
+.img-galerry {
+  margin: 74.6px 71.3px;
+}
