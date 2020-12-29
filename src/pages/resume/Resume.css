@@ -1,0 +1,42 @@
+.resume-content {
+  padding: 0px 133px;
+}
+.my-resume {
+  color: #4ace54;
+  font-size: 23px;
+  margin-bottom: 45px;
+  font-weight: 300;
+}
+.resume-text {
+  color: white;
+  line-height: 35px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.button-download {
+  position: relative;
+  color: white;
+  background-color: #39d084;
+  font-size: 15px;
+  width: 270px;
+  height: 55px;
+  border-radius: 40px;
+  border: none;
+  margin-left: 130px;
+  margin-top: 45px;
+  cursor: pointer;
+  outline: 0;
+  padding-left: 55px;
+}
+.button-download:hover {
+  background-color: #34ac70;
+}
+.button-download:active {
+  position: relative;
+  top: 1px;
+}
+.download {
+  margin-left: -35px;
+  margin-top: -4px;
+  position: absolute;
+}
