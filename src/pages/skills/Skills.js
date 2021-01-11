@@ -22,7 +22,7 @@ function Skills() {
         <div className="line-name-skill">
           <div className="word">
             <p className="name">VUE</p>
-            <p className="percent">40%</p>
+            <p className="percent">35%</p>
           </div>
           <div className="line">
             <div className="line-skill line-skill-vue" />
@@ -34,7 +34,7 @@ function Skills() {
         <div className="line-name-skill">
           <div className="word">
             <p className="name">JS</p>
-            <p className="percent">35%</p>
+            <p className="percent">40%</p>
           </div>
           <div className="line">
             <div className="line-skill line-skill-js" />

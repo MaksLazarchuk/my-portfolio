@@ -1,5 +1,6 @@
 import "./Resume.css";
 import download from "../../media/download.png";
+import resume from "../../media/Resume.docx";
 
 function Resume() {
   return (
@@ -9,10 +10,12 @@ function Resume() {
         You can download my resume for your references, and I hope that we can
         meet very soon
       </p>
-      <button className="button-download">
-        <img className="download" src={download} alt="download" />
-        DOWNLOAD RESUME
-      </button>
+      <a href={resume} download>
+        <button className="button-download">
+          <img className="download" src={download} alt="download" />
+          DOWNLOAD RESUME
+        </button>
+      </a>
     </div>
   );
 }
