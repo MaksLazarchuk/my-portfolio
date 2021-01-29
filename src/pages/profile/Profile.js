@@ -1,5 +1,5 @@
 import "./Profile.css";
-import photogram from "../../media/photogram.png";
+import photogram from "../../media/photogram.jpg";
 import check from "../../media/check.png";
 import { Consumer } from "../../ModalContext";
 
