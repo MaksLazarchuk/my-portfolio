@@ -1,5 +1,5 @@
 import "./Header.css";
-import photogram from "../../media/photogram.png";
+import photogram from "../../media/photogram.jpg";
 import user from "../../media/user.png";
 import circles from "../../media/circles.png";
 import bag from "../../media/bag.png";

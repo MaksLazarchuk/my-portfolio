@@ -45,6 +45,7 @@
   position: absolute;
   background-color: #4ace54;
   margin-top: 2px;
+  margin-left: -3px;
   border-radius: 50%;
 }
 .contact:active {
