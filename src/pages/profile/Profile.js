@@ -1,8 +1,9 @@
 import "./Profile.css";
 import photogram from "../../media/photogram.png";
 import check from "../../media/check.png";
+import { Consumer } from "../../ModalContext";
 
-function Profile() {
+function Profile({ toggle }) {
   return (
     <div className="profile">
       <div className="container-pages">
@@ -17,10 +18,14 @@ function Profile() {
             have something to be done just call my name and ill be there.
           </p>
         </div>
-        <button className="button-hire">
-          <img className="check" src={check} alt="check" />
-          HIRE ME
-        </button>
+        <Consumer>
+          {(toggle) => (
+            <button className="button-hire" onClick={toggle}>
+              <img className="check" src={check} alt="check" />
+              HIRE ME
+            </button>
+          )}
+        </Consumer>
       </div>
     </div>
   );

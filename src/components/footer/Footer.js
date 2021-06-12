@@ -1,6 +1,6 @@
 import "./Footer.css";
 
-function App() {
+function Footer({ toggle, isContactActive }) {
   return (
     <footer id="App-footer">
       <div className="container-footer">
@@ -8,8 +8,8 @@ function App() {
           <a href="https://github.com/MaksLazarchuk" className="reference">
             github.com/MaksLazarchuk
           </a>
-          <button className="contact">
-            <div className="round" />
+          <button className="contact" onClick={toggle}>
+            {isContactActive && <div className="round" />}
             CONTACT
           </button>
         </div>
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default Footer;
