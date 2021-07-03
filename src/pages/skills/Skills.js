@@ -10,7 +10,7 @@ function Skills() {
         <div className="line-name-skill">
           <div className="word">
             <p className="name">REACT</p>
-            <p className="percent">20%</p>
+            <p className="percent">35%</p>
           </div>
           <div className="line">
             <div className="line-skill line-skill-react" />
@@ -22,7 +22,7 @@ function Skills() {
         <div className="line-name-skill">
           <div className="word">
             <p className="name">VUE</p>
-            <p className="percent">35%</p>
+            <p className="percent">20%</p>
           </div>
           <div className="line">
             <div className="line-skill line-skill-vue" />
