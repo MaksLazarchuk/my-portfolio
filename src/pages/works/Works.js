@@ -2,7 +2,7 @@ import "./Works.css";
 import ticTacToe from "../../media/tic-tac-toe.png";
 import album from "../../media/album.png";
 import news from "../../media/news.png";
-import restaurant from "../../media/restaurant.png";
+import services from "../../media/Services.jpg";
 
 function Works() {
   return (
@@ -29,9 +29,9 @@ function Works() {
         </a>
       </div>
       <div className="box-galerry">
-        <a href="https://github.com/MaksLazarchuk/estimation">
+        <a href="https://makslazarchuk.github.io/services/">
           <div className="galerry">
-            <img className="img-galerry" src={restaurant} alt="restaurant" />
+            <img className="img-galerry" src={services} alt="services" />
           </div>
         </a>
       </div>
