@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.599dad0e.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.52612923.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.52612923.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.87913554.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.87913554.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.04d9ce4e.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.04d9ce4e.js.map",
     "static/js/2.aeb12d84.chunk.js": "/my-portfolio/static/js/2.aeb12d84.chunk.js",
@@ -16,13 +16,13 @@
     "static/media/Services.b492eeda.jpg": "/my-portfolio/static/media/Services.b492eeda.jpg",
     "static/media/album.a3892215.png": "/my-portfolio/static/media/album.a3892215.png",
     "static/media/news.a18a1e9a.png": "/my-portfolio/static/media/news.a18a1e9a.png",
-    "static/media/photogram.3b034984.jpg": "/my-portfolio/static/media/photogram.3b034984.jpg",
+    "static/media/photogram.9d0c4b27.jpg": "/my-portfolio/static/media/photogram.9d0c4b27.jpg",
     "static/media/tic-tac-toe.50608607.png": "/my-portfolio/static/media/tic-tac-toe.50608607.png"
   },
   "entrypoints": [
     "static/js/runtime-main.04d9ce4e.js",
     "static/js/2.aeb12d84.chunk.js",
     "static/css/main.599dad0e.chunk.css",
-    "static/js/main.52612923.chunk.js"
+    "static/js/main.87913554.chunk.js"
   ]
 }
